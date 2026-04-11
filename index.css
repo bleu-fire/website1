@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* box top */
+
 section {
     background-color: rgb(22, 22, 22);
     border: 2px solid black;
@@ -20,14 +20,14 @@ section {
     box-shadow: 5px 5px 10px gray;
 }
 
-/* title */
+
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     color: white;
 }
 
-/* contacts line */
+
 .contacts {
     background-color: aqua;
     border: 2px solid black;
@@ -44,7 +44,7 @@ h1 {
     box-shadow: 5px 5px 10px white;
 }
 
-/* links */
+
 a {
     text-decoration: none;
     font-size: 25px;
@@ -61,7 +61,7 @@ body {
     margin: 0;
 }
 
-/* section */
+
 section {
     background-color: rgb(22, 22, 22);
     border: 2px solid black;
@@ -82,7 +82,7 @@ h1 {
     font-size: 40px;
 }
 
-/* contacts */
+
 .contacts {
     background-color: rgb(0, 0, 0);
     border: 2px solid black;
@@ -99,7 +99,7 @@ h1 {
     box-shadow: 5px 5px 10px white;
 }
 
-/* icons */
+
 .contacts a {
     font-size: 35px;
     color: rgb(255, 255, 255);
@@ -110,7 +110,7 @@ h1 {
     transform: scale(1.2);
 }
 
-/* colors لكل icon */
+
 .fa-facebook-f:hover {
     color: #1877f2;
 }
