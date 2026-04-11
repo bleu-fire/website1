@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2f47; /* Deep Dark */
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+ 
+}
+.banner{
+display: flex;
+padding: 20px;
+justify-content: space-between;
+background-color: #484872;
+position: fixed;
+width: 100%;
+z-index: 1000;
+border-bottom: 1px solid #2f2f47;
+
+}
+.banner #logo{
+
+height: 100px;
+width: 100px;
+border-radius:100% ;
+filter: drop-shadow(0 0 30px #ffff);
+outline:  solid rgb(255, 255, 255);
+
+}
+#title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+#title span {
+  color: #d6abff; 
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  
+}
+ a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.btn-main {
+  display: inline-flex;
+  margin-top: 130px;    
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #8a2be2;
+  cursor: pointer;
+  position: relative;
+  top: 400px;
+  left: 700px;
+}
+
+.btn-main:hover {
+  background: #8a2be2;
+  box-shadow: 0 0 30px #8a2be2;
+  transform: translateY(-5px); 
+}
