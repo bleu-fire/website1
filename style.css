@@ -73,3 +73,55 @@ nav ul {
   box-shadow: 0 0 30px #8a2be2;
   transform: translateY(-5px); 
 }
+
+/*about*/
+.about-class {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: #d6abff;
+}
+.paragraph-class{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  top: 50px;
+  padding: 20px;
+}
+.card1{
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 40px;
+  border-radius: 15px;
+  display: flex;
+  margin: 0 50px;
+  box-shadow: 0px 0px 3px  3px #d6abff;
+}
+.card2{
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: -360px;
+  border-radius: 15px;
+  display: flex;
+  margin: 0 460px;
+  box-shadow: 0px 0px 3px  3px #d6abff;
+  
+}
+.card3{
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: -760px;
+  border-radius: 15px;
+  display: flex;
+  margin: 0 900px;
+  box-shadow: 0px 0px 3px  3px #d6abff;
+  
+}
+
